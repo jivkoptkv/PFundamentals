@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6DA47B0B-8FD1-4BB7-A5C0-CF422F117D33}</ProjectGuid>
+    <ProjectGuid>{E5D2220F-EF43-401C-B5FE-F4DA4AE10855}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSharpIntro</RootNamespace>
-    <AssemblyName>CSharpIntro</AssemblyName>
+    <RootNamespace>PFundamentals.CondStmntsAndLoops</RootNamespace>
+    <AssemblyName>CondStmntsAndLoops</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,13 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Task4BeverageLabels.cs" />
-    <Compile Include="Task5CharacterStats.cs" />
-    <Compile Include="Task1DebitCardNumber.cs" />
     <Compile Include="EntryPoint.cs" />
-    <Compile Include="Task3MilesToKilometers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Task2RectangleArea.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace CSharpIntro
+namespace PFundamentals.CondStmntsAndLoops
 {
     public interface IExercise
     {
@@ -30,7 +30,7 @@ namespace CSharpIntro
     {
         public static void Main(String[] args)
         {
-            FindSolution<Task5CharacterStats>();
+            //FindSolution<TaskClassGoesHere>();
         }
 
         private static void FindSolution<T>() where T : IExercise
